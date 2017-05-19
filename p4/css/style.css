@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #292929;
+    background: linear-gradient(#292929,black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#page {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: white;
+    padding-top: 3px;
+    height: 50px;
+}
+
+hr {
+    height: 2px;
+    color: white;
+    width: 30%;
+}
+
+#newItem {
+    padding-top: 4px;
+    height: 50px;
+}
+
+#newItem > #input {
+    height: 40px;
+    width: 50%;
+}
+
+#newItem > #newItemButton {
+    height: 40px;
+    font-weight: bold;
+}
+
+span > input {
+    width: 30%;
+    text-align: center;
+}
+
+input {
+    border-radius: 5px;
+}
+
+
+
+li {
+  background-color: #39c442;
+  color: black;
+  font-size: 24px;
+  letter-spacing: .05em;
+  list-style-type: none;
+  font-family: "Arial Black", Gadget, sans-serif;
+  height: 50px;
+  padding-left: 1em;
+  padding-top: 4px;
+  margin-bottom: 5px;
+  width: 175%;
+  margin-left: -37.5%;
+}
+
+h3 {
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+li > span {
+    padding-left: 2em;
+}
+
+
+.editBtn {
+    float: right;
+    margin-right: 10px;
+    margin-top: 4px;
+    visibility: hidden;
+    
+    -ms-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -webkit-transform: scale(.8);
+    -o-transform: scale(.8);
+}
+
+.deleteBtn {
+    float: right;
+    margin-right: 10px;
+    margin-top: 4px;
+    visibility: hidden;
+    
+     -ms-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -webkit-transform: scale(.8);
+    -o-transform: scale(.8);
+}
+
+
+
+ul {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.checkbox {
+    float: left;
+    -ms-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    height: 35px;
+}
+
+.selected {
+    background-color: green;
+}
+
+.selected > .deleteBtn {
+    visibility: visible;
+}
+
+.selected > .editBtn {
+    visibility: visible;
+}
+
+.completed {
+    background-color: gray;
+    text-decoration:line-through;
+}
+
+
