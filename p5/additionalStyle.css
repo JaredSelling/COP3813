@@ -1,0 +1,44 @@
+body {
+    color: white;
+    text-align: center;
+    background: #292929;
+    background: linear-gradient(#292929,black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+h2 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+label {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+form {
+    width: 40%;
+    margin: auto;
+}
+
+
+#main {
+    transform: translateY(70%);
+
+}
+
+@media only screen and (max-device-width: 480px) {
+    form {
+        width: 40%;
+    }
+    
+}
+
+@media only screen and (max-device-width: 1024px) {
+    form {
+        width: 40%;
+    }
+    
+}
+
